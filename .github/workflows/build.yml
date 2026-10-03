@@ -180,7 +180,7 @@ jobs:
           <h1>melo packages</h1>
           <p>Signing key: <code>$FPR</code></p>
           <h2>Ubuntu, Debian, Mint</h2>
-          <pre>curl -fLO $DL/$DEB
+          <pre>wget $DL/$DEB
           sudo apt install ./$DEB</pre>
           <h2>Fedora, RHEL</h2>
           <pre>sudo dnf install $DL/$RPM</pre>
